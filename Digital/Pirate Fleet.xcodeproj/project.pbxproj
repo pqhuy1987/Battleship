@@ -34,14 +34,14 @@
 		A9DDAF261B9629AD00D64CD7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDAF251B9629AD00D64CD7 /* Functions.swift */; };
 		A9EAC0BB1B8FD833008AD77B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAC0BA1B8FD833008AD77B /* Player.swift */; };
 		A9EAC0BD1B8FDE98008AD77B /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAC0BC1B8FDE98008AD77B /* Human.swift */; };
-		ED127C9C1BEA9CA300593385 /* SeaMonsterHit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED127C9B1BEA9CA300593385 /* SeaMonsterHit.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED127C9E1BEA9DC500593385 /* SeaMonster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED127C9D1BEA9DC500593385 /* SeaMonster.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986B9E1BDFF7960018437D /* WoodenShipBodyHorz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9A1BDFF7960018437D /* WoodenShipBodyHorz.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986B9F1BDFF7960018437D /* WoodenShipBodyVert.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9B1BDFF7960018437D /* WoodenShipBodyVert.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986BA01BDFF7960018437D /* WoodenShipHeadDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9C1BDFF7960018437D /* WoodenShipHeadDown.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986BA11BDFF7960018437D /* WoodenShipHeadLeft.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9D1BDFF7960018437D /* WoodenShipHeadLeft.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986BA41BDFFA420018437D /* WoodenShipHeadRightWithFlag.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986BA21BDFFA420018437D /* WoodenShipHeadRightWithFlag.pdf */; settings = {ASSET_TAGS = (); }; };
-		ED986BA51BDFFA420018437D /* WoodenShipHeadUpWithFlag.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986BA31BDFFA420018437D /* WoodenShipHeadUpWithFlag.pdf */; settings = {ASSET_TAGS = (); }; };
+		ED127C9C1BEA9CA300593385 /* SeaMonsterHit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED127C9B1BEA9CA300593385 /* SeaMonsterHit.pdf */; };
+		ED127C9E1BEA9DC500593385 /* SeaMonster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED127C9D1BEA9DC500593385 /* SeaMonster.pdf */; };
+		ED986B9E1BDFF7960018437D /* WoodenShipBodyHorz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9A1BDFF7960018437D /* WoodenShipBodyHorz.pdf */; };
+		ED986B9F1BDFF7960018437D /* WoodenShipBodyVert.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9B1BDFF7960018437D /* WoodenShipBodyVert.pdf */; };
+		ED986BA01BDFF7960018437D /* WoodenShipHeadDown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9C1BDFF7960018437D /* WoodenShipHeadDown.pdf */; };
+		ED986BA11BDFF7960018437D /* WoodenShipHeadLeft.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986B9D1BDFF7960018437D /* WoodenShipHeadLeft.pdf */; };
+		ED986BA41BDFFA420018437D /* WoodenShipHeadRightWithFlag.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986BA21BDFFA420018437D /* WoodenShipHeadRightWithFlag.pdf */; };
+		ED986BA51BDFFA420018437D /* WoodenShipHeadUpWithFlag.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED986BA31BDFFA420018437D /* WoodenShipHeadUpWithFlag.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -249,6 +249,8 @@
 				TargetAttributes = {
 					A9C2B4571B8E2D38007983DB = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FSP2U7T379;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -432,10 +434,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSP2U7T379;
 				INFOPLIST_FILE = "Pirate Fleet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Pirate-Fleet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.battleship.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -443,10 +447,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FSP2U7T379;
 				INFOPLIST_FILE = "Pirate Fleet/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.udacity.Pirate-Fleet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digital.battleship.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
